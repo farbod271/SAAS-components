@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      borderRadius: {
+        'custom-50': '50px',
+      },
+    },
   },
   plugins: [],
 }

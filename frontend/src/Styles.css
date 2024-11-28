@@ -52,10 +52,10 @@ a:hover {
 }
 
 .note {
-    margin: 10px;
+    /* margin: 10px; */
     height: 200px;
     width: 200px;
-    position: relative;
+    position: absolute;
 }
 
 textarea {
@@ -85,12 +85,15 @@ textarea:focus-visible {
     outline: none;
 }
 
-.container {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin-top: 20px;
-    flex-wrap: wrap;
+.my-container {
+    /* display: flex;
+    justify-content: center; */
+    /* gap: 20px; */
+    /* margin-top: 20px; */
+    /* flex-wrap: wrap; */
+    width: 100%;
+    height: 500px;
+    position: relative;
 }   
 
 .active-link {
@@ -106,7 +109,7 @@ button:active {
 
 
   
-  .notes-list  {
+  /* .notes-list  {
     display: none;
     width: 0px;
   }
@@ -115,7 +118,48 @@ button:active {
       animation: fadeIn 2s;
     display: block;
 
+  } */
+
+
+
+
+form {
+    margin: 0 auto;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+    flex-direction: column;
+    width: 400px;
+
+  }
+
+  .inner-type {
+    border: #e5e7eb solid 3px;
+    padding: 25px 30px;
+    border-radius: 50px;
+    color: rgb(234, 234, 234);
+    background-color: #303d51;
+    font-family: Fira Code VF, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
   }
 
 
-  
+  .blog-cont {
+    border-radius: 40px;
+    background-color: #293951;
+    color: #ddd;
+    width: 300px;
+    margin: 0 auto;
+  }
+
+
+  .rounds {
+    margin: 0 auto;
+  }
+
+  .custum-style {
+    background-color: #293951;
+    color: #ddd;
+  }
