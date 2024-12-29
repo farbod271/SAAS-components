@@ -18,3 +18,5 @@ This is a playground for me to practice basic React stuff before I deploy them. 
 
 This repository contains multiple small projects and components. You can navigate through them and experiment with the code to understand how different React concepts work.
 
+
+
